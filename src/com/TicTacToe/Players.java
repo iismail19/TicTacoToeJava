@@ -1,6 +1,6 @@
 package com.TicTacToe;
 
-enum CurrentStateOnBoard {Empty, X, O};
+enum CurrentStateOnBoard {Empty, X, O}
 
 public class Players {
     // Class should hold two players max
