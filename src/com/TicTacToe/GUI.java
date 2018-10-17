@@ -14,15 +14,22 @@ public class GUI extends JPanel{
 
     public GUI(){
         setLayout(new GridLayout(3,3));
-        initializeButtons();
     }
 
-    public void initializeButtons() {
+    public void show(){
+        JFrame frame = new JFrame("Tic Tac Toe");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        initializeButtons(frame);
+        frame.pack();
+        frame.setVisible(true);
+    }
+
+    public void initializeButtons(JFrame frame) {
         for(int i = 0; i < 9; i++) {
             buttons[i] = new JButton();
             buttons[i].setText("");
             buttons[i].addActionListener(new buttonListener());
-            add(buttons[i]);
+            frame.getContentPane().add(buttons[i]);
         }
     }
 
