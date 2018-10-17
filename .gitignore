@@ -1,0 +1,18 @@
+*.class
+*.log
+
+# IDEA files
+.idea/
+*.iml
+
+# generated files
+bin/
+build/
+gen/
+target/
+
+# Mac files
+*.DS_Store
+
+# Java class files
+*.class
