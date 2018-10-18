@@ -2,7 +2,7 @@ package com.TicTacToe;
 
 public class CheckWinner {
 
-    Contains the logic to check who won the game
+    //Contains the logic to check who won the game
     public CurrentStateOnBoard checkForWinner(int position, BoardGame board)
     {
         switch (position)
