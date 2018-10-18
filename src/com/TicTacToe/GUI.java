@@ -67,7 +67,7 @@ public class GUI extends JFrame{
                 button.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        if(((JButton)e.getSource()).getText().equals("")){ // && checkForWinner
+                        if(((JButton)e.getSource()).getText().equals("")){ // TODO && checkForWinner
                             button.setText(currentPlayer);
                             changePlayer();
                         }
