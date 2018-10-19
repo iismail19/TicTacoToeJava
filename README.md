@@ -26,5 +26,9 @@ this project is a Java Application. Please download any Java complier to use and
 - Have square states only be 'X', 'O', or empty(X)
 ## Technologies
 Created using Java using java.awt library.
+## Design
+Design initially based off of [this UML diagram](https://www.draw.io/#G1fyPfwGOK4SeSQvoeH-GKclL8iXau7uEh) and with the following Use Cases in mind [1](https://docs.google.com/document/d/1eJD8kDszHHuFJjd-2vi30QBJXa90ArqB0nRamkI8Zok/edit) [2](https://drive.google.com/file/d/19vnPRU6xFa-kCqsJVrQiXvYodDM5KVpv/view?usp=sharing) [3](https://3.basecamp.com/3842445/buckets/9207271/uploads/1370412074) [4](https://3.basecamp.com/3842445/buckets/9207271/uploads/1370867742)
+## Defect Tracking
+Any defects will be tracked in Github Issues of this repository.
 ## Creators
 This was created by Ismail Ismail, Christy Hammill, Megan O'Toole, and Elena Murphy for Honig's COMP 330 class.
